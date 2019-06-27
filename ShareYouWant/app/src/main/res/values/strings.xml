@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Share You Want</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_content">Create</string>
+    <string name="title_activity_single_my_content_view">Manage</string>
+    <string name="no_connection">No Internet Connection !</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_single_content_view">Details</string>
+    <string name="title_activity_main">Home</string>
+    <string name="registration">Registration</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_user_maps">Map</string>
+    <string name="title_activity_lender_maps">Map</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="crop_image_menu_crop">OK</string>
+</resources>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/lenderProfilePic"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_weight=".3"
+        android:background="#dedcdc"
+        android:paddingTop="20dp"
+        android:src="@drawable/ic_person_black_72dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF2E8B57" />
+
+
+    <TextView
+        android:id="@+id/lenderLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dedcdc"
+        android:gravity="center"
+        android:hint="location"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        tools:context="com.example.abdullahal_munzir.shareyouwant.LenderMapsActivity" />
+</LinearLayout>

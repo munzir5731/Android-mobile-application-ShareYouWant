@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e8b57</color>
+    <color name="colorPrimaryDark">#194d30</color>
+    <color name="colorAccent">#2e8b57</color>
+    <color name="button_layout_ripple">#73f959</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#cfcfcf</color>
+    <color name="create_content">#41fcd3</color>
+    <color name="edit_content">#fdb100</color>
+    <color name="light_red">#d4313c</color>
+    <color name="snakbar_red">#e6970408</color>
+    <color name="dark">#016120</color>
+
+    <color name="create_button">#c1ffe100</color>
+    <color name="create_button_dark">#a18e00</color>
+
+    <color name="book_tag">#3399ff</color>
+    <color name="game_tag">#f5c401</color>
+
+
+</resources>
